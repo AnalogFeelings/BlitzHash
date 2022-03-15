@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlitzHash", "BlitzHash.vcxproj", "{97E5A193-4DCA-4CE9-8382-937D0674F780}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cryptlib", "cryptopp\cryptlib.vcxproj", "{C39F4B46-6E89-4074-902E-CA57073044D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		DLL-Import Debug|x86 = DLL-Import Debug|x86
+		DLL-Import Release|x86 = DLL-Import Release|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97E5A193-4DCA-4CE9-8382-937D0674F780}.Debug|x86.ActiveCfg = Debug|Win32
+		{97E5A193-4DCA-4CE9-8382-937D0674F780}.Debug|x86.Build.0 = Debug|Win32
+		{97E5A193-4DCA-4CE9-8382-937D0674F780}.DLL-Import Debug|x86.ActiveCfg = Debug|Win32
+		{97E5A193-4DCA-4CE9-8382-937D0674F780}.DLL-Import Debug|x86.Build.0 = Debug|Win32
+		{97E5A193-4DCA-4CE9-8382-937D0674F780}.DLL-Import Release|x86.ActiveCfg = Release|Win32
+		{97E5A193-4DCA-4CE9-8382-937D0674F780}.DLL-Import Release|x86.Build.0 = Release|Win32
+		{97E5A193-4DCA-4CE9-8382-937D0674F780}.Release|x86.ActiveCfg = Release|Win32
+		{97E5A193-4DCA-4CE9-8382-937D0674F780}.Release|x86.Build.0 = Release|Win32
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.Debug|x86.ActiveCfg = Debug|Win32
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.Debug|x86.Build.0 = Debug|Win32
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.DLL-Import Debug|x86.ActiveCfg = DLL-Import Debug|Win32
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.DLL-Import Debug|x86.Build.0 = DLL-Import Debug|Win32
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.DLL-Import Release|x86.ActiveCfg = DLL-Import Release|Win32
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.DLL-Import Release|x86.Build.0 = DLL-Import Release|Win32
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.Release|x86.ActiveCfg = Release|Win32
+		{C39F4B46-6E89-4074-902E-CA57073044D2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B965E80-DC3B-4497-9B34-D78C010C8035}
+	EndGlobalSection
+EndGlobal

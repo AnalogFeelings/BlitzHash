@@ -6,4 +6,7 @@
   <ItemGroup>
     <ClInclude Include="BlitzHash.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="BlitzHash.decls" />
+  </ItemGroup>
 </Project>

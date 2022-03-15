@@ -16,6 +16,9 @@
   <ItemGroup>
     <ClInclude Include="BlitzHash.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="BlitzHash.decls" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlitzHash", "BlitzHash.vcxproj", "{97E5A193-4DCA-4CE9-8382-937D0674F780}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C39F4B46-6E89-4074-902E-CA57073044D2} = {C39F4B46-6E89-4074-902E-CA57073044D2}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cryptlib", "cryptopp\cryptlib.vcxproj", "{C39F4B46-6E89-4074-902E-CA57073044D2}"
 EndProject
